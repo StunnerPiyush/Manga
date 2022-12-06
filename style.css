@@ -1,0 +1,193 @@
+* {
+    margin: 0%;
+}
+
+#nav {
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#nav ul li {
+    display: inline-block;
+    padding: 2vw;
+}
+
+#login {
+    float: right;
+}
+
+#nav ul li a:hover {
+    background-color: rgb(70, 78, 245);
+    color: rgb(9, 9, 9);
+    border-radius: 5px;
+}
+
+#nav ul li a {
+    color: rgb(255, 128, 0);
+    text-decoration: none;
+    font-size: X-large;
+}
+
+#search-b {
+    padding-left: 1vh;
+}
+
+#foot {
+    background-color: black;
+
+    width: 100%;
+    height: 10vh;
+}
+
+#foot a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    font-style: italic;
+    color: white;
+}
+
+#foot a:hover {
+    color: blue;
+}
+
+.d-block {
+    height: 30vh;
+    
+    position: relative;
+    left: 20vw;
+}
+@media(max-width:685px) {
+
+    #nav {
+        height: 20vh;
+    }
+}
+#log {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 2vh;
+}
+
+#d2 {
+    position: relative;
+    top: 10vh;
+    background-color: rgb(55, 233, 236);
+    height: 70vh;
+    border: 2px solid black;
+    margin: 2vh;
+
+}
+
+.sub {
+    border-radius: 7px;
+    background-color: rgb(54, 54, 246);
+    color: aliceblue;
+}
+#menu {
+    background-color: black;
+}
+
+#menu h1 {
+    color: white;
+    text-align: center;
+
+}
+
+#menu ul li {
+    display: inline-block;
+    padding: 2vh;
+}
+
+.image {
+    width: 20vw;
+    height: 50vh;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: rgb(72, 131, 249);
+    text-align: center;
+}
+
+#menu ul li a:hover {
+    background-color: white;
+    color: rgb(255, 47, 0);
+    font-size: x-large;
+
+}
+
+@media (max-width:500px) {
+    .image {
+        width: 20vh;
+        height: 35vh;
+    }
+
+
+}
+
+
+#main {
+    overflow: scroll;
+}
+
+#pic {
+    margin-top: 3vh;
+
+    background-color: black;
+
+}
+
+#pic img {
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+}
+
+#pic h1 {
+    text-align: center;
+
+    color: coral;
+}
+
+.session {
+
+    height: 25vh;
+    background-color: rgb(2, 7, 20);
+    display: flex;
+    overflow-y: scroll;
+}
+
+.s {
+    margin-top: 2vh;
+    background-color: rgb(93, 125, 251);
+    text-align: center;
+}
+
+.i {
+    width: 20vh;
+}
+
+.epe a {
+    padding: 4px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.epe a:hover {
+    color: white;
+    font-size: x-large;
+
+}
+
+@media (max-width:400) {
+    .i {
+        width: 150px;
+        ;
+    }
+}
